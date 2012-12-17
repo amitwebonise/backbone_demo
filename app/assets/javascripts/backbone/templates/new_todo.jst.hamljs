@@ -1,0 +1,9 @@
+%a{href: "#", class: "close-form close"} x
+%p
+  %form
+    %fieldset
+      .clearfix
+        %label{for: "name"} Task
+        .input
+          %input{name: "name", class: "new-todo", type: "text"}
+          %input{id: "commit", value: "Save", type: "submit", class: "btn primary small"}

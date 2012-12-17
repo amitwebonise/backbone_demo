@@ -1,0 +1,12 @@
+.row
+  .span10
+    %h1 Backbone Todo App
+    .row
+      #create-list
+        %input{id: 'new-list', placeholder: "What needs to be done?", type:'text', class: 'xlarge' }
+        %span.label.margin-left-10
+          Press Enter to create this list
+      #todos
+        %ul#todo-list
+    .alert-message.info
+      Double click in a list or a task to edit

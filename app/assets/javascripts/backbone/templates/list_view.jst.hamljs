@@ -1,0 +1,13 @@
+.list-content
+  .list-value
+    %h2
+      = name
+  .list-input.input{style: "padding-top: 5px;padding-bottom:5px"}
+    %input{name: "name", class: "edit-input large", value: "#{name}", type: "text"}
+  .buttons
+    %a{href: "#", class: "add-todo btn primary small"} Add Todo
+    %span{style:"padding-left:15px"}
+      %a{href: "#", class: "list-destroy btn small"} Delete
+  .todo-form
+  .list-todos
+    %ul.todos
